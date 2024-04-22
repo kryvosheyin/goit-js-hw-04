@@ -14,6 +14,7 @@ const calcAverageCalories = (days) => {
     return days.length === 0 ? 0 : totalCalories / days.length;
 };
 
+console.log("OUTPUTS FOR TASK 2");
 console.log(
     calcAverageCalories([
         { day: "monday", calories: 3010 },
@@ -39,3 +40,4 @@ console.log(
 ); // 2270
 
 console.log(calcAverageCalories([])); // 0
+console.log("");
